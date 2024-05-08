@@ -1,0 +1,36 @@
+{
+  "name": "npm-package-target-debugger",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "optionalDependencies": {
+    "envio-linux-x64": "v0.0.41",
+    "envio-linux-arm64": "v0.0.41",
+    "envio-darwin-x64": "v0.0.41",
+    "envio-darwin-arm64": "v0.0.41",
+    "@envio-dev/test-cpu-package-arm": "v1.0.0",
+    "@envio-dev/test-cpu-package-arm64": "v1.0.0",
+    "@envio-dev/test-cpu-package-ia32": "v1.0.0",
+    "@envio-dev/test-cpu-package-mips": "v1.0.0",
+    "@envio-dev/test-cpu-package-mipsel": "v1.0.0",
+    "@envio-dev/test-cpu-package-ppc": "v1.0.0",
+    "@envio-dev/test-cpu-package-ppc64": "v1.0.0",
+    "@envio-dev/test-cpu-package-s390": "v1.0.0",
+    "@envio-dev/test-cpu-package-s390x": "v1.0.0",
+    "@envio-dev/test-cpu-package-x64": "v1.0.0",
+    "@envio-dev/test-os-package-aix": "v1.0.0",
+    "@envio-dev/test-os-package-android": "v1.0.0",
+    "@envio-dev/test-os-package-darwin": "v1.0.0",
+    "@envio-dev/test-os-package-freebsd": "v1.0.0",
+    "@envio-dev/test-os-package-linux": "v1.0.0",
+    "@envio-dev/test-os-package-openbsd": "v1.0.0",
+    "@envio-dev/test-os-package-sunos": "v1.0.0",
+    "@envio-dev/test-os-package-win32": "v1.0.0"
+  }
+}

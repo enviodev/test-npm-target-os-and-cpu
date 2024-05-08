@@ -1,0 +1,233 @@
+lockfileVersion: '6.0'
+
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
+optionalDependencies:
+  '@envio-dev/test-cpu-package-arm':
+    specifier: v1.0.0
+    version: 1.0.0
+  '@envio-dev/test-cpu-package-arm64':
+    specifier: v1.0.0
+    version: 1.0.0
+  '@envio-dev/test-cpu-package-ia32':
+    specifier: v1.0.0
+    version: 1.0.0
+  '@envio-dev/test-cpu-package-mips':
+    specifier: v1.0.0
+    version: 1.0.0
+  '@envio-dev/test-cpu-package-mipsel':
+    specifier: v1.0.0
+    version: 1.0.0
+  '@envio-dev/test-cpu-package-ppc':
+    specifier: v1.0.0
+    version: 1.0.0
+  '@envio-dev/test-cpu-package-ppc64':
+    specifier: v1.0.0
+    version: 1.0.0
+  '@envio-dev/test-cpu-package-s390':
+    specifier: v1.0.0
+    version: 1.0.0
+  '@envio-dev/test-cpu-package-s390x':
+    specifier: v1.0.0
+    version: 1.0.0
+  '@envio-dev/test-cpu-package-x64':
+    specifier: v1.0.0
+    version: 1.0.0
+  '@envio-dev/test-os-package-aix':
+    specifier: v1.0.0
+    version: 1.0.0
+  '@envio-dev/test-os-package-android':
+    specifier: v1.0.0
+    version: 1.0.0
+  '@envio-dev/test-os-package-darwin':
+    specifier: v1.0.0
+    version: 1.0.0
+  '@envio-dev/test-os-package-freebsd':
+    specifier: v1.0.0
+    version: 1.0.0
+  '@envio-dev/test-os-package-linux':
+    specifier: v1.0.0
+    version: 1.0.0
+  '@envio-dev/test-os-package-openbsd':
+    specifier: v1.0.0
+    version: 1.0.0
+  '@envio-dev/test-os-package-sunos':
+    specifier: v1.0.0
+    version: 1.0.0
+  '@envio-dev/test-os-package-win32':
+    specifier: v1.0.0
+    version: 1.0.0
+  envio-darwin-arm64:
+    specifier: v0.0.41
+    version: 0.0.41
+  envio-darwin-x64:
+    specifier: v0.0.41
+    version: 0.0.41
+  envio-linux-arm64:
+    specifier: v0.0.41
+    version: 0.0.41
+  envio-linux-x64:
+    specifier: v0.0.41
+    version: 0.0.41
+
+packages:
+
+  /@envio-dev/test-cpu-package-arm64@1.0.0:
+    resolution: {integrity: sha512-ePIzbMpSzVgAt2xWiL6GACVAOfcQ5p9vQvLpqMx2FdPwAoQ3m6dtbjnmnsFHO/2wwnV09X+Xm+EeyK6ood5o2g==}
+    cpu: [arm64]
+    requiresBuild: true
+    dev: false
+    optional: true
+
+  /@envio-dev/test-cpu-package-arm@1.0.0:
+    resolution: {integrity: sha512-ZZu9LhrkkWaAl+326UfPgiH95imME/RcfCKzO74rK7kiRDv9+g5/gKUwUqs/mMGCfMP44aU8ArCghg5M9Pi1lg==}
+    cpu: [arm]
+    requiresBuild: true
+    dev: false
+    optional: true
+
+  /@envio-dev/test-cpu-package-ia32@1.0.0:
+    resolution: {integrity: sha512-n5zHD6KjPXySuMUOBW8zzBdQiW7qvHf6Q/zZDqvQs2jSqmfBZvC9KKHBXYrNCyhesMXDeZbm7Nx4qhjVz3hX+Q==}
+    cpu: [ia32]
+    requiresBuild: true
+    dev: false
+    optional: true
+
+  /@envio-dev/test-cpu-package-mips@1.0.0:
+    resolution: {integrity: sha512-klzj5uUCI0N1rY6f+ls9NLtBw0JEJfu/Q1ebvdqgxPAdshGVDU5o0Fd8ze11CWdAT4HxJ0JaPPixpMsnzbq+9A==}
+    cpu: [mips]
+    requiresBuild: true
+    dev: false
+    optional: true
+
+  /@envio-dev/test-cpu-package-mipsel@1.0.0:
+    resolution: {integrity: sha512-nClYcp4vadfrhbslfXOl0LCklDjft5RQeE/62D9QK54vNWSVRA4CCmlSAAFFepk4Rhq7/aYtQsVxOPEj5+/xgA==}
+    cpu: [mipsel]
+    requiresBuild: true
+    dev: false
+    optional: true
+
+  /@envio-dev/test-cpu-package-ppc64@1.0.0:
+    resolution: {integrity: sha512-3DjS0zDxUfY0lScfvlWQUoTdSRVUHSzNLIfotD8tyZXF2T5zM2fBj0q4bdpRhoiGzndZA8/nt0D6ifFadXUlKg==}
+    cpu: [ppc64]
+    requiresBuild: true
+    dev: false
+    optional: true
+
+  /@envio-dev/test-cpu-package-ppc@1.0.0:
+    resolution: {integrity: sha512-zJPcH5CjK4R+pxs/oCmrdGfJcF2hS8xAln7Nzgb2I6YGGLEhRqKAASQ56ROzlAJJyzooHydovrY7F1f2a/ORIQ==}
+    cpu: [ppc]
+    requiresBuild: true
+    dev: false
+    optional: true
+
+  /@envio-dev/test-cpu-package-s390@1.0.0:
+    resolution: {integrity: sha512-AIXr+bpXet+KZ1W+dkxmxzIj0XgHQRTZpE8x3xlkEWPe1negB4grqnjeEKVXUba60xsBh9IMuHPtDCXuO5nz2Q==}
+    cpu: [s390]
+    requiresBuild: true
+    dev: false
+    optional: true
+
+  /@envio-dev/test-cpu-package-s390x@1.0.0:
+    resolution: {integrity: sha512-cUqkwgzZECWmkFFi9h79lkULB3WxM6p+LZ5hyO0gIYbIbj0mvSBMagPmTTdP9iW0K7Un4wEFRImw7oACKA0t5A==}
+    cpu: [s390x]
+    requiresBuild: true
+    dev: false
+    optional: true
+
+  /@envio-dev/test-cpu-package-x64@1.0.0:
+    resolution: {integrity: sha512-3pWPSZaLHh93rMuNP8BWd4LlLlhR4f+oFIq2bSrL6PFgCkt6+WKu4BXCajthvoLOX7gnbISEZcdPu40IB877tQ==}
+    cpu: [x64]
+    requiresBuild: true
+    dev: false
+    optional: true
+
+  /@envio-dev/test-os-package-aix@1.0.0:
+    resolution: {integrity: sha512-+pAo+LNfKYWpvuR5ns/AJpnlcuLTBqrBiyeN4Hz3Fos5Jr/SO+SWc7FApSHK735y+Kq8G3UtymydX0KHIsDOKA==}
+    os: [aix]
+    requiresBuild: true
+    dev: false
+    optional: true
+
+  /@envio-dev/test-os-package-android@1.0.0:
+    resolution: {integrity: sha512-ZCuZDHt58LZQRcb8Xa6FcBlHSS6uHYkJIAk9p0J2k0rMIT4xhzap6UuLL/j1exVPGz1Y9GQlroiArmqfzhrx3g==}
+    os: [android]
+    requiresBuild: true
+    dev: false
+    optional: true
+
+  /@envio-dev/test-os-package-darwin@1.0.0:
+    resolution: {integrity: sha512-+7jgWyhsfjePDC6NgsD/O77tPdzdFsJ4Cr+y6xmfOUtETp1gDFHD4ewkHOQ+g1DchZOVufz+JqASiULj+BGXsg==}
+    os: [darwin]
+    requiresBuild: true
+    dev: false
+    optional: true
+
+  /@envio-dev/test-os-package-freebsd@1.0.0:
+    resolution: {integrity: sha512-/LDFNnlaw2CarqvJ9Rnime5VZubNBA3QIXU3AenOhpLPgvchu+M5Ce0dvUYajMbfWbBSohGUUMUQ6TB3hnBxjA==}
+    os: [freebsd]
+    requiresBuild: true
+    dev: false
+    optional: true
+
+  /@envio-dev/test-os-package-linux@1.0.0:
+    resolution: {integrity: sha512-9LOAc2iiweHjCCvIBgBci0CVnYhJjUItQuHJ1o5lJpIbkhr6HbT8UKswZr9UN12Hm5jhegliYKN8ViVQ63h3zg==}
+    os: [linux]
+    requiresBuild: true
+    dev: false
+    optional: true
+
+  /@envio-dev/test-os-package-openbsd@1.0.0:
+    resolution: {integrity: sha512-s5Q6GPvCjKREGtfZgRrbtTKEgKKGvdWSA4LNFiWs8RAO/rA76/hhbIgJ2Kawc1/k2XPDdqOHeqrJtmcpg7Cfow==}
+    os: [openbsd]
+    requiresBuild: true
+    dev: false
+    optional: true
+
+  /@envio-dev/test-os-package-sunos@1.0.0:
+    resolution: {integrity: sha512-+W4MXeGEmeL32T+ltl7cy1HTlsiWAaHCqIr+qxljjfE5KYkScDzddZRKBfpO6xUDvCOirSVLcBTYCqpnjY0CUg==}
+    os: [sunos]
+    requiresBuild: true
+    dev: false
+    optional: true
+
+  /@envio-dev/test-os-package-win32@1.0.0:
+    resolution: {integrity: sha512-iGfzimmErCt9ojsHslEThnfpTqJFokyGpM1ViXLFdP8LIfZYZfZoJpgwDYkIIKpN31eD2LQNmPPjb3ZhJ7mLIA==}
+    os: [win32]
+    requiresBuild: true
+    dev: false
+    optional: true
+
+  /envio-darwin-arm64@0.0.41:
+    resolution: {integrity: sha512-jWU4OhgwsB/C4kruRUrcZXtDKbntVUZ9MtAmOj5rOZnalSeUdpiyP/WBjPvndWYtEjCCFObs/tYowrMFJ7KLDA==}
+    cpu: [arm64]
+    os: [darwin]
+    requiresBuild: true
+    dev: false
+    optional: true
+
+  /envio-darwin-x64@0.0.41:
+    resolution: {integrity: sha512-qxtKozDD+WLcILosTuxguzS0PjWxzmQewxcR2g54OPCgIl8ok7iI7zZuW3Ftqb1DdAk97sri9vLd+SLquuREjQ==}
+    cpu: [x64]
+    os: [darwin]
+    requiresBuild: true
+    dev: false
+    optional: true
+
+  /envio-linux-arm64@0.0.41:
+    resolution: {integrity: sha512-QPbJKqVFIerEjedb/GOiD+DIiGaWfnKU3KVVMNBJnil0yO9q1oOhGRvLhAWDbqO+rPZTIbWKP/8KEnhl8bve6Q==}
+    cpu: [arm64]
+    os: [linux]
+    requiresBuild: true
+    dev: false
+    optional: true
+
+  /envio-linux-x64@0.0.41:
+    resolution: {integrity: sha512-MhEfsc8+jfJz5r5Vs90b18Jcl1+I/T5CsmA6nETfa+K+SWNzQZ/rjEnJleOkLEaNrMREoQbqmvoH+hT6tIDg8A==}
+    cpu: [x64]
+    os: [linux]
+    requiresBuild: true
+    dev: false
+    optional: true
